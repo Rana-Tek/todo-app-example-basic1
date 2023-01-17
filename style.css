@@ -62,7 +62,7 @@
     border-radius: 50%;
     background-color: white;
     border: 1px solid black;
-    display: none;
+    
 }
 .check:checked{
     background-color: #1dd2af;
