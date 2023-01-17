@@ -1,0 +1,93 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    background-color: #e1e3ee;
+    height: 100vh;
+}
+
+
+.app{
+    width: 60%;
+}
+
+.app h1{
+    color: bisque;
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0.5rem 0.5rem 0 0;
+    background-color: #de3f53;
+}
+
+.app form{
+    display: flex;
+    width: 100%;
+    background-color: #262e4c;
+
+}
+.app form input{
+    border: none;
+    background-color: #3c4979;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    width: 90%;
+}
+.app form button{
+    border: none;
+    color: white;
+    background-color: #1dd2af;
+    font-size: 25px;
+    font-weight: 700;
+    height: 45px;
+    width: 10%;
+}
+.app ul{
+    list-style-type: none;
+    color: #e0e3ee;
+    padding: 0;
+}
+.app ul li{
+    padding: 10px;
+    background-color: #262e4c;
+    border-bottom: 1px solid #3a4674;
+
+}
+.check{
+    width: 0.8rem;
+    height: 0.8rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+    display: none;
+}
+.check:checked{
+    background-color: #1dd2af;
+}
+.task{
+    font-size: 18px;
+    padding: 10px;
+}
+.task:focus{
+    outline: none;
+}
+.app ul li i {
+    float: right;
+    cursor: pointer;
+}
+.app ul li i:hover{
+    color: rgb(255,80,80);
+}
+.complete{
+    color: rgba(192,192,192,0.8);
+    text-decoration: line-through;
+}
+
+@media (max-width:768px) {
+  .app {
+    width: 90%;
+  }    
+}
