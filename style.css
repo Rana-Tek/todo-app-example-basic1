@@ -75,7 +75,6 @@
     outline: none;
 }
 .app ul li i {
-    float: right;
     cursor: pointer;
 }
 .app ul li i:hover{
